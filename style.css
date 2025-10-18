@@ -41,7 +41,7 @@ header {
 
 /* Logo */
 .logo {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 800;
   color: #2563eb;
   letter-spacing: 1px;
@@ -63,7 +63,7 @@ header {
 .nav-links a {
   text-decoration: none;
   color: #333;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   padding: 5px 0;
   display: inline-block;
@@ -152,7 +152,7 @@ header {
   }
 
   .nav-links a {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -186,7 +186,7 @@ header {
 
 /* Text Section */
 .home-text h2 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 700;
   color: #2563eb;
 }
@@ -196,7 +196,7 @@ header {
 }
 
 .home-text p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #555;
   margin-top: 10px;
   line-height: 1.6;
@@ -207,7 +207,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 25px 0;
 }
 
@@ -235,7 +235,7 @@ header {
   padding: 14px 32px;
   border-radius: 10px;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -265,11 +265,11 @@ header {
   }
 
   .home-text h2 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 
   .home-text p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .home-image img {
@@ -297,15 +297,15 @@ header {
   }
 
   .home-text h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .home-text p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .btn {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 12px 25px;
   }
 
@@ -320,7 +320,7 @@ header {
   }
 
   .tag {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 8px 15px;
   }
 }
@@ -334,7 +334,7 @@ header {
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
   margin-bottom: 60px;
   color: #111;
@@ -369,7 +369,7 @@ header {
 .icon {
   background: #eef4ff;
   color: #2563eb;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   width: 55px;
   height: 55px;
   display: flex;
@@ -380,14 +380,14 @@ header {
 }
 
 .about-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #111;
   margin-bottom: 10px;
 }
 
 .about-card p {
   color: #555;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 1.6;
 }
 
@@ -399,7 +399,7 @@ header {
   }
 
   .home-text h2 {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 
   .home-image img {
@@ -430,7 +430,7 @@ header {
 }
 
 .skills-section .section-title {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
   margin-bottom: 40px;
 }
@@ -466,7 +466,7 @@ header {
   font-weight: 600;
   text-align: left;
   margin-bottom: 10px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #111;
 }
 
@@ -474,7 +474,7 @@ header {
   position: absolute;
   right: 25px;
   top: 20px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #2563eb;
 }
@@ -500,7 +500,7 @@ header {
   }
 
   .skills-section .section-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .skill-box {
@@ -520,7 +520,7 @@ header {
 }
 
 .services-section .section-title {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: 700;
   margin-bottom: 80px;
   text-align: center;
@@ -562,19 +562,19 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 25px;
 }
 
 .service-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #111827;
   margin-bottom: 15px;
 }
 
 .service-card p {
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.6;
   color: #374151;
 }
@@ -608,7 +608,7 @@ header {
 }
 
 .projects-section .section-title {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 70px;
@@ -658,7 +658,7 @@ header {
 }
 
 .project-header h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #111827;
 }
@@ -718,7 +718,7 @@ header {
   }
 
   .project-header h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -741,7 +741,7 @@ header {
 }
 
 .contact-section .section-title {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 60px;
@@ -771,7 +771,7 @@ header {
 }
 
 .contact-info h3 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: #111827;
   margin-bottom: 10px;
@@ -798,7 +798,7 @@ header {
   border-radius: 12px;
   background: rgba(37, 99, 235, 0.08);
   color: #2563eb;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -806,7 +806,7 @@ header {
 }
 
 .info-card h4 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #111827;
   font-weight: 600;
 }
@@ -859,7 +859,7 @@ header {
   color: #fff;
   border: none;
   padding: 15px;
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 600;
   border-radius: 10px;
   cursor: pointer;
@@ -900,4 +900,5 @@ header {
     max-width: 500px;
   }
 }
+
 
