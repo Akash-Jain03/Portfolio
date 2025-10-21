@@ -15,7 +15,7 @@ body {
 /* Container */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -35,13 +35,13 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 18px 5%;
-  max-width: 1400px;
+  max-width: 1600px;
   margin: auto;
 }
 
 /* Logo */
 .logo {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 800;
   color: #2563eb;
   letter-spacing: 1px;
@@ -63,7 +63,7 @@ header {
 .nav-links a {
   text-decoration: none;
   color: #333;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   padding: 5px 0;
   display: inline-block;
@@ -152,7 +152,7 @@ header {
   }
 
   .nav-links a {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -186,7 +186,7 @@ header {
 
 /* Text Section */
 .home-text h2 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #2563eb;
 }
@@ -196,7 +196,7 @@ header {
 }
 
 .home-text p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #555;
   margin-top: 10px;
   line-height: 1.6;
@@ -207,7 +207,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 25px 0;
 }
 
@@ -235,7 +235,7 @@ header {
   padding: 14px 32px;
   border-radius: 10px;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -246,8 +246,8 @@ header {
 
 /* Profile Image */
 .home-image img {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
@@ -265,11 +265,11 @@ header {
   }
 
   .home-text h2 {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
   }
 
   .home-text p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .home-image img {
@@ -297,15 +297,15 @@ header {
   }
 
   .home-text h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .home-text p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .btn {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 12px 25px;
   }
 
@@ -320,7 +320,7 @@ header {
   }
 
   .tag {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 8px 15px;
   }
 }
@@ -334,7 +334,7 @@ header {
 }
 
 .section-title {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 60px;
   color: #111;
@@ -369,7 +369,7 @@ header {
 .icon {
   background: #eef4ff;
   color: #2563eb;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   width: 55px;
   height: 55px;
   display: flex;
@@ -380,14 +380,14 @@ header {
 }
 
 .about-card h3 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #111;
   margin-bottom: 10px;
 }
 
 .about-card p {
   color: #555;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.6;
 }
 
@@ -399,7 +399,7 @@ header {
   }
 
   .home-text h2 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 
   .home-image img {
@@ -422,7 +422,7 @@ header {
   }
 }
 
-/* Skills Section */
+/* ===== Skills Section ===== */
 .skills-section {
   background: #f9fbff;
   padding: 150px 10%;
@@ -430,7 +430,7 @@ header {
 }
 
 .skills-section .section-title {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 40px;
 }
@@ -446,6 +446,7 @@ header {
   align-items: center;
 }
 
+/* Each Skill Box */
 .skill-box {
   background: #fff;
   width: 100%;
@@ -453,7 +454,6 @@ header {
   padding: 20px 25px;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  position: relative;
   transition: transform 0.3s ease;
 }
 
@@ -461,24 +461,29 @@ header {
   transform: translateY(-3px);
 }
 
+/* Skill header: name + percentage */
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
 .skill-name {
-  display: block;
   font-weight: 600;
   text-align: left;
-  margin-bottom: 10px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #111;
 }
 
 .skill-percent {
-  position: absolute;
-  right: 25px;
-  top: 20px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #2563eb;
 }
 
+/* Skill Bar */
 .skill-bar {
   background: #e5ecf9;
   height: 10px;
@@ -493,34 +498,64 @@ header {
   transition: width 1s ease-in-out;
 }
 
-/* Responsive */
+/* ===== Responsive Design ===== */
 @media (max-width: 768px) {
   .skills-section {
-    padding: 60px 5%;
+    padding: 80px 6%;
   }
 
   .skills-section .section-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .skill-box {
     padding: 18px;
   }
+
+  .skill-name {
+    font-size: 1.1rem;
+  }
+
+  .skill-percent {
+    font-size: 1rem;
+  }
 }
+
+@media (max-width: 480px) {
+  .skills-section {
+    padding: 60px 5%;
+  }
+
+  .skill-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .skill-name {
+    font-size: 1rem;
+  }
+
+  .skill-percent {
+    align-self: flex-end;
+    font-size: 0.95rem;
+  }
+}
+
 
 
 /* ===== SERVICES SECTION ===== */
 .services-section {
   background: #f9fbff;
-  padding: 150px 22% 100px;
-  min-height: 100vh;
+  padding: 150px 0;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .services-section .section-title {
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   font-weight: 700;
   margin-bottom: 80px;
   text-align: center;
@@ -535,12 +570,13 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 35px;
-  width: 100%;
-  max-width: 1300px;
+  /* width: 100%; */
+  /* max-width: 1200px; */
 }
 
 .service-card {
   background: #fff;
+  min-width: 280px;
   padding: 45px 30px;
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
@@ -562,19 +598,19 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 25px;
 }
 
 .service-card h3 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #111827;
   margin-bottom: 15px;
 }
 
 .service-card p {
-  font-size: 1rem;
+  font-size: 1.05rem;
   line-height: 1.6;
   color: #374151;
 }
@@ -587,9 +623,9 @@ header {
 }
 
 /* Medium: 2 columns (optional) */
-@media (min-width: 909px) and (max-width: 1199px){
+@media (min-width: 920px) and (max-width: 1199px){
   .services-grid{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -608,7 +644,7 @@ header {
 }
 
 .projects-section .section-title {
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 70px;
@@ -658,7 +694,7 @@ header {
 }
 
 .project-header h3 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #111827;
 }
@@ -718,7 +754,7 @@ header {
   }
 
   .project-header h3 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -729,19 +765,19 @@ header {
   padding: 100px 8%;
   min-height: 100vh;
   display: flex;
-  justify-content: center; /* Center content vertically */
-  align-items: center;     /* Center content horizontally */
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
 .contact-section .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto; /* Centers the container horizontally */
+  margin: 0 auto;
 }
 
 .contact-section .section-title {
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 60px;
@@ -757,7 +793,7 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 40px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
 }
@@ -768,23 +804,29 @@ header {
   flex-direction: column;
   gap: 25px;
   justify-content: center;
+  align-items: stretch;
 }
 
 .contact-info h3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #111827;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .info-card {
   display: flex;
   align-items: center;
+  gap: 20px;
   background: #fff;
   border-radius: 16px;
   padding: 18px 25px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .info-card:hover {
@@ -792,32 +834,43 @@ header {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
 }
 
-.info-card .icon-box {
+.icon-box {
   height: 55px;
   width: 55px;
   border-radius: 12px;
   background: rgba(37, 99, 235, 0.08);
   color: #2563eb;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 20px;
+  flex-shrink: 0; /* Prevent icon from shrinking */
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  word-break: break-word;
 }
 
 .info-card h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #111827;
   font-weight: 600;
+  margin-bottom: 4px;
 }
 
-.info-card p {
+.info-card p,
+.info-card a {
   color: #374151;
   font-size: 1rem;
+  line-height: 1.4;
+  text-decoration: none;
 }
 
 .info-card a {
-  text-decoration: none;
   color: #2563eb;
   font-weight: 500;
 }
@@ -835,6 +888,9 @@ header {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .contact-form input,
@@ -859,11 +915,11 @@ header {
   color: #fff;
   border: none;
   padding: 15px;
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 600;
   border-radius: 10px;
   cursor: pointer;
-  margin-top: 50px;
+  margin-top: 30px;
   transition: 0.3s;
 }
 
@@ -884,21 +940,29 @@ header {
     text-align: center;
   }
 
-  .contact-info h3 {
-    text-align: center;
-  }
-
   .info-card {
-    justify-content: center;
+    justify-content: flex-start;
     text-align: left;
-    width: 100%;
-    max-width: 400px;
   }
 
-  .contact-form {
-    width: 100%;
-    max-width: 500px;
+  .info-text {
+    align-items: flex-start;
   }
 }
 
+@media (max-width: 480px) {
+  .info-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+  }
 
+  .info-text {
+    align-items: center;
+  }
+
+  .icon-box {
+    margin-right: 0;
+  }
+}
